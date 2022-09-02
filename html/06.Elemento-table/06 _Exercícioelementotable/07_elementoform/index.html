@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>ELEMENTO FORM</title>
+    </head>
+    <body>
+        <!-----ESTRUTURAS DO ELEMENTO FORM----->
+
+        <form action="raphaelamarthins0202@gmail.com">
+            <input type="button" name="sorry" value=" clique aqui" />
+        </form>
+
+        <form method="post" action="raphaelamarthins0202@gmail.com ">
+            <input required />
+            <input type="submit" value="enviar" />
+
+            <!----- atributo checkbox do atributo type-->
+            <p>Escolha o Estado que você quer morar</p>
+            <label for="cid">toronto</label>
+            <input id="cid" type="checkbox" />
+
+            <label for="cid">texas</label>
+            <input id="cid" type="checkbox" />
+
+            <label for="cid">mexico</label>
+            <input id="cid" type="checkbox" />
+
+            <!------ valor radio para o atributo type-->
+
+            <p>Selecione a vacina</p>
+            <label for="meg">megatron</label>
+            <input type="radio" id="meg" name="tipo" />
+            <label for="meg">bombombi</label>
+            <input type="radio" id="bom" name="tipo" />
+            <label for="meg">bombeiro</label>
+            <input type="radio" id="iro" name="tipo" /><br />
+
+            <!------Elemento select e Datalist e Option----->
+            <label for="Pão">Escolha o seu pão</label>
+            <select name="Pão" id="Pão">
+                <option value="forma">forma</option>
+                <option value="broa">broa</option>
+                <option value="frances">frances</option>
+                <option value="parmesao">parmesao</option>
+            </select>
+            <p>
+                <label for="">Times</label>
+                <input autocomplete="on" list="time" name="time" id="times" />
+                <datalist id="time">
+                    <option value="pen">penapolrnce</option>
+                    <option value="pal">palmeiras</option>
+                    <option value="port">portuguesa</option>
+                    <option value="chap">chapecoense</option>
+                    <option value="pia">piaui</option>
+                </datalist>
+            </p>
+        </form>
+    </body>
+</html>
