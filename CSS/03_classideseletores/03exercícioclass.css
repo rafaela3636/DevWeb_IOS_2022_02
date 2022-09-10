@@ -1,0 +1,25 @@
+@charset "utf-8";
+.itens {
+    color: purple;
+}
+
+section .fundo{
+    background-color: gray;
+    border: 2px solid green;
+}
+
+
+h1{
+
+color: blue;
+border: 2px solid grey;
+text-align: center;
+}
+
+.vitoria {
+    color: gray;
+    background-color: beige;
+    border: 2px solid green;
+}
+
+
