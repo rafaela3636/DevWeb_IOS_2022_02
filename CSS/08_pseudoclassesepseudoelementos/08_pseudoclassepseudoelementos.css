@@ -1,0 +1,47 @@
+p:first-child{
+    color: green
+}
+
+.mylist li:first-child{
+    background-color: red;
+}
+
+    .mylist li:nth-child(3) {
+        background-color: yellow
+  }
+
+  .mylist li:last-child {
+    background-color: violet
+}
+
+a:hover{
+   background-color: blue; 
+}
+
+#paragrafo::before {
+    content: "Leia isso -";
+}
+
+#paragrago 2::after{;
+    ::content: "Leia isso -";
+}
+
+/*first-letter que pega a primeira letra do meu paragrafo*/
+
+p::first-letter{
+    font-size: 200%;
+    color:#8a2b
+}
+#first::first-line{
+    background-color: rosybrown;
+}
+
+p::selection{
+    color:aliceblue
+    background-color: rebeccapurple;
+}
+
+::selection{
+    color: white;
+    background-color:red;
+}
