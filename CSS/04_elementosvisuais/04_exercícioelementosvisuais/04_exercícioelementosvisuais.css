@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(supermercadotiruleipe.jpg);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: orange;
+    text-align: center;
+    border: 1px solid #000;
+    margin-bottom: 50px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+th {
+    border: 1px solid #000;
+    color: blue;
+    font-weight: bold;
+    padding: 17px 3px;
+    background-color: rgba(210, 105, 30, 0.853);
+    text-align: center;
+}
+
+td {
+    padding: 13px 9px;
+    border: 1px solid black;
+    text-align: right;
+    background-color: chocolate;
+    text-align: center;
+}
