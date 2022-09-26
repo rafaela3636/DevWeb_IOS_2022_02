@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+body {
+    background-image: url(attackontitanepisodiofinaldiretorameaca);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2em;
+}
+
+img {
+    height: 315px;
+    width: 560px;
+}
+
+header {
+    background-color: #533618;
+    text-align: center;
+    margin-bottom: 90px;
+    padding-bottom: 15px;
+}
+
+.btn {
+    border: 1px solid black;
+    color: black;
+    background-color: #c1c2bc;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 35px;
+
+}
+
+.card-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #8c867c;
+}
+
+.card-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #8c867c;
+    margin: 90px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #8c867c;
+    grid-template-rows: 2;
+}
+
+.noticia {
+    padding: 30px;
+}
+
+.descricoes {
+    padding: 90px;
+}
+
+.info {
+    margin: 50px;
+    text-align: center;
+}
+
+a:hover {
+    opacity: 0.5;
+    background: #314a20;
+}
+
+img:hover {
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.697);
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: #533618;
+}
+
+.botton {
+    border: 1px solid black;
+    color: black;
+    background-color: #c1c2bc;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+footer {
+    color: #c1c2bc;
+    padding: 70px 50px;
+    font-size: 1, 5em;
+    text-align: center;
+}
+
+footer::before {
+    content: "2022 \00A9";
+}
+
+footer::after {
+    content: "Rafaela Martins";
+}
+
+p::selection {
+    background-color: #314a20;
+    color: white;
+}
