@@ -1,36 +1,44 @@
 .container {
     display: grid;
     border: 1px solid #000;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
+   grid-template-areas: 
     "mais mais mais mais "
     "menos menos . dividir" 
     "multiplicar multiplicar multiplicarseparar";
+}*/
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+   /*grid-auto-rows: 100px;*/
+   column-gap: 10px;
+    row-gap: 15px;
+    /*justify-items: stretch;
+    align-items:stretch;
+}*/
 }
+    .item-1 {
+        /* grid-area: mais;*/
+        border: 1px solid navy;
 
-.item-1 {
-    grid-area: mais;
-    border: 1px solid navy;
+    }
 
-}
+    .item-2 {
+        /*grid-area: menos;*/
+        border: 1px solid violet;
+    }
 
-.item-2 {
-    grid-area: menos;
-    border: 1px solid violet;
-}
+    .item-3 {
+        /*grid-area: dividir;*/
+        border: 1px solid red;
+    }
 
-.item-3 {
-    grid-area: dividir;
-    border: 1px solid red;
-}
+    .item-4 {
+        /*grid-area: multiplicar;*/
+        border: 1px solid greenyellow;
+    }
 
-.item-4 {
-    grid-area: multiplicar;
-    border: 1px solid greenyellow;
-}
-
-.item-5 {
-    grid-area: separar;
-    border: 1px solid rebeccapurple;
-}
+    .item-5 {
+        /* grid-area: separar;*/
+        border: 1px solid rebeccapurple;
+    }
