@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.container{
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap:1em;
+   
+
+}
+
+.item-1{
+grid-column: 2;
+}
+
