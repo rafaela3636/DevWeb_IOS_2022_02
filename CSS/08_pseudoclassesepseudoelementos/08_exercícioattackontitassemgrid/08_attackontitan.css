@@ -48,6 +48,8 @@ header {
     display: flex;
     background-color: #8c867c;
     border-radius: 5px;
+    flex-direction: column;
+
 }
 
 .noticia {
