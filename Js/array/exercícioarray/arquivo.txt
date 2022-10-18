@@ -1,0 +1,2 @@
+Um objetivo é um simples paradigma, e uma propriedade émuma chave associação entre um nome ( ou chave) e um valor.
+Um valor de propriedade pode ser ums função, que é então considerada um método do objetivo.
