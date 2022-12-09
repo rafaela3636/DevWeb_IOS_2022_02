@@ -1,0 +1,23 @@
+1) O que é Spring?
+R: É um framework desenvolvido com o objetivo de facilitar aplicações web escritas em JAVA.
+
+2) O que é hibernate ?
+R: É  um framework de objeto relacional para para a linguagem JAVA, fornece uma estrutura de mapeamento
+para um modelo de domínio orientado a objetos para um banco de dados.
+
+3) O que é JVM, JDK E JRE?
+R:
+JVM é a máquina virtual do JAVA responsável por executar o bytecode.
+JDK compila o seu código e para a JVM executar o seu programa.
+JRE é o ambiente de execução do JAVA que fornece as bibliotecas padrões.
+
+4) O que o JAVA e por qual motivo foi criado?
+R:JAVA é ima linguagem de programação e plataforma de computação.
+
+Foi criado com objetivo inicial do projeto de antecipar as tendências tecnologicas futuras.
+
+5) Qual a diferença entre JSE, JME E JEE?
+R:
+JSE é o ambiente de desenvolvimento mais utilizado em PC´s.
+JME possibilita o desenvolvimentode software para sistemas e aplicações embutidas ou embarcado.
+JEE oferece um conjuto de APIs(interfaces de programação de aplicações) para desenvolvimento e execução de aplicações portáteis.
